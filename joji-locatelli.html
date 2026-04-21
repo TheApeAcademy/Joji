@@ -779,10 +779,15 @@ footer::before {
 @media (max-width: 768px) {
   nav { padding: 18px 24px; }
   .nav-links { display: none; }
-  .hero { grid-template-columns: 1fr; }
-  .hero-left { padding: 48px 24px; }
-  .hero-right { height: 48vw; }
-  .hero-float-card { left: 16px; bottom: 16px; }
+  .hero { grid-template-columns: 1fr 1fr; padding-top: 56px; }
+  .hero-left { padding: 28px 14px 28px 20px; }
+  .hero-desc { display: none; }
+  .hero-stats { display: none; }
+  .hero-title { font-size: 26px; margin-bottom: 20px; }
+  .hero-eyebrow { margin-bottom: 14px; }
+  .hero-right { height: 100%; min-height: 64vw; }
+  .hero-float-card { left: -10px; bottom: 12px; padding: 14px 16px; min-width: 130px; }
+  .float-val { font-size: 18px; }
   .collections, .newsletter { padding: 80px 24px; }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .about { grid-template-columns: 1fr; padding: 0 24px 80px; gap: 60px; }
